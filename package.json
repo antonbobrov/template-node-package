@@ -15,6 +15,10 @@
     "prepare:cjs": "NODE_ENV=cjs babel ./src --out-dir ./dist",
     "release": "npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+GIT_REPOSITORY_LINK"
+  },
   "keywords": [
     "keyword"
   ],
