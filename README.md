@@ -10,9 +10,18 @@
 
 
 
-## How to start
+## Documentation: https://antonbobrov.github.io/template-node-package/
+
+
+
+## How to start with NPM
 ```sh
 npm install template-node
+```
+
+## How to start with CDN
+```html
+<script src="https://cdn.jsdelivr.net/npm/package-name/dist/cdn/index.min.js"></script>
 ```
 
 
@@ -23,6 +32,8 @@ npm install template-node
 ```
 ```js
 import templateNode from 'template-node';
+```
+```js
 templateNode({
     selector: '.template-node'
 });
