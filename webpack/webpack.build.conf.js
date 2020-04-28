@@ -3,7 +3,6 @@ const baseWebpackConfig = require('./webpack.base.conf');
 const preamble = require('./preamble');
 
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack-plugin').default
 
 const buildWebpackConfig = merge(baseWebpackConfig, {
 
@@ -36,14 +35,7 @@ const buildWebpackConfig = merge(baseWebpackConfig, {
         sideEffects: true
     },
 
-    plugins: [
-        new ImageminPlugin({
-            disable: false,
-            pngquant: {
-                quality: '95-100'
-            }
-        }),
-    ]   
+    plugins: [ ]   
 
 });
 
