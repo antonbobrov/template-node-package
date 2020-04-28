@@ -1,6 +1,6 @@
 {
   "name": "template-node-package",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Description",
   "main": "dist/index.js",
   "browser": "dist/cdn/index.js",
